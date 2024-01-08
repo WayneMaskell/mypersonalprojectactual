@@ -29,6 +29,7 @@ public class ArrowFlight : MonoBehaviour
         if (other.CompareTag("Animal"))
         {
             Destroy(gameObject);
+            Destroy(other.gameObject);
         }
     }
 }
